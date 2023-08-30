@@ -2,56 +2,56 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Heineken',
+    price: 'NGN 1000',
+    tags: 'Beer | Bottle',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Desperado',
+    price: 'NGN 1000',
+    tags: 'Beer | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Trophy',
+    price: 'NGN 700',
+    tags: 'Beer | Bottle',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Domino wine',
+    price: 'NGN 10000',
+    tags: 'Wine | 750 ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Edward Classic',
+    price: 'NGN 10000',
+    tags: 'Wine | 750 ml',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
+    title: 'Bar Bomber',
+    price: 'NGN 2000',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
+    title: 'Virgin Colada',
+    price: 'NGN 2500',
+    tags: 'Colada | Villa Marchesi prosecco | soda | 30 ml',
+  },
+  {
+    title: 'Screaming Orgasm',
+    price: 'NGN 3000',
+    tags: 'Dark rum | Ginger beer | Slice of lime',
+  },
+  {
+    title: 'Audios Motherfucker',
+    price: 'NGN 4000',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
+    title: 'Smoothie Jug',
+    price: 'NGN 5000',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];

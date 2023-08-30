@@ -12,16 +12,16 @@ const Navbar = () => {
         <img src={images.gericht} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p__opensans"><a href="#home">Eatery</a></li>
+        <li className="p__opensans"><a href="#about">Night Club</a></li>
+        <li className="p__opensans"><a href="#menu">Lounge and Bar</a></li>
+        <li className="p__opensans"><a href="#awards">Event Hall</a></li>
+        <li className="p__opensans"><a href="#contact">Import & Export Terminal</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <a href="#login" className="p__opensans">Contact</a>
         <div />
-        <a href="/" className="p__opensans">Book Table</a>
+        <a href="/" className="p__opensans">Book Now</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />

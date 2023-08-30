@@ -18,9 +18,8 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={images.knife} alt="about_knife" />
+        <img src={images.knife} alt="about_knife" width={500} />
       </div>
-
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
