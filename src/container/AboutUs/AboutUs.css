@@ -19,17 +19,16 @@
 }
 
 .app__aboutus-content_about {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
 
-    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .app__aboutus-content_knife {
-    margin: 2rem 4rem;
+    margin: 2rem 2rem;
 }
 
 .app__aboutus-content_knife img {
@@ -37,17 +36,16 @@
 }
 
 .app__aboutus-content_history {
-    flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 
-    text-align: left;
+    text-align: center;
 }
 
 .app__aboutus-content_about p,
-.app__aboutus-content_history p {
+.app__specialMenu_menu_items {
     margin: 2rem 0;
     color: var(--color-grey);
 }

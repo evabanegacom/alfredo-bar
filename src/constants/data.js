@@ -56,6 +56,29 @@ const cocktails = [
   },
 ];
 
+const nightclubs = [
+  {
+    title: 'Night Long',
+    price: 'NGN 30000',
+  },
+  {
+    title: 'Virgin Colada',
+    price: 'NGN 2500',
+  },
+  {
+    title: 'Screaming Orgasm',
+    price: 'NGN 3000',
+  },
+  {
+    title: 'Audios Motherfucker',
+    price: 'NGN 4000',
+  },
+  {
+    title: 'Smoothie Jug',
+    price: 'NGN 5000',
+  },
+];
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -79,4 +102,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails, awards, nightclubs };

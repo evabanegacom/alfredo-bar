@@ -1,6 +1,6 @@
 import React from 'react';
-
-import { images } from '../../constants';
+import { MenuItem } from '../../components';
+import { data, images } from '../../constants';
 import './AboutUs.css';
 
 const AboutUs = () => (
@@ -11,20 +11,30 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Our Club</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">At Alfredos Restaurant, we believe that dining is more than just a meal. it is an experience that engages the senses and creates cherished memories. Located in Festac, our Restaurant is a testament to our passion for impeccable cuisine. Our commitment to using the finest ingredients  and providing warm and attentive service defines who we are. Whether you are seeking a romantic dinner or a gathering with friends, we invite you to indulge in the art of gastronomy with us.</p>
+        <p className="p__opensans">Welcome to Alfredos, where the night comes alive with pulsating beats, electrifying energy, and an atmosphere that transcends the ordinary. Established with a passion for entertainment and a commitment to redefining nightlife, Alfredos stands as an iconic destination for those seeking an unforgettable experience. At Alfredos, we believe that the night is a canvas of possibilities, where every moment is an opportunity to create memories that resonate for a lifetime. </p>
+
         <button type="button" className="custom__button">Know More</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <img src={images.knife} alt="about_knife" width={500} />
+        <video controls width="640" height="360">
+          <source src={images.knife} type="video/mp4" />
+          <track kind="captions" srcLang="en" label="English captions" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__cormorant">Our History</h1>
+        <h1 className="headtext__cormorant">Our Fees</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">A journey that began 2years ago, Alfredos Restaurant has been a cornerstone of culinary excellence in Festac. Founded by Mr.Alfred Ekene Obelle, a visionary with an unrelenting passion for food, our restaurant started as a humble endeavor and has grown into a symbol of dining sophistication. Over the years, we have evolved our menu, embracing both tradition and innovation to create a symphony of flavors that reflect the essence of our city.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <div className="app__specialMenu-menu_cocktails  flex__center">
+          <div className="app__specialMenu_menu_items">
+            {data.nightclubs.map((nightclub, index) => (
+              <MenuItem key={nightclub.title + index} title={nightclub.title} price={nightclub.price} tags={nightclub.tags} />
+            ))}
+          </div>
+        </div>        <button type="button" className="custom__button">Know More</button>
       </div>
     </div>
   </div>
