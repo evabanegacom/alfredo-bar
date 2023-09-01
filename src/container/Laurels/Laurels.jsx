@@ -15,18 +15,26 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className="app__bg app__wrapper section__padding" id="awards">
-    <div className="app__wrapper_info">
-      <SubHeading title="Awards & recognition" />
-      <h1 className="headtext__cormorant">Our Laurels</h1>
+  <div className="laurels-container app__bg app__wrapper section__padding">
+    <div className="app__bg app__wrapper section__padding" id="awards">
+      <div className="app__wrapper_info">
+        <SubHeading title="The center piece" />
+        <h1 className="headtext__cormorant">Our Event Hall</h1>
 
-      <div className="app__laurels_awards">
-        {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
+        <div className="app__laurels_awards">
+          {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
+        </div>
       </div>
+      <video className="app__laurels_video" controls width="600" height="500">
+        <source src={images.hall} type="video/mp4" />
+        <track kind="captions" srcLang="en" label="English captions" />
+        Your browser does not support the video tag.
+      </video>
     </div>
 
-    <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurels_img" />
+    <div className="laurels-images">
+      <img src={images.hall1} alt="laurels_img" width={500} height={500} />
+      <img src={images.hall2} alt="laurels_img" width={500} height={500} />
     </div>
   </div>
 );

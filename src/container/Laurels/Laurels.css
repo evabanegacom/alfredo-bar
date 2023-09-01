@@ -1,10 +1,11 @@
 .app__laurels_awards {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
     margin-top: 3rem;
+    gap: 1rem;  
 }
 
 .app__laurels_awards-card {
@@ -13,9 +14,31 @@
     justify-content: flex-start;
     align-items: flex-start;
     min-width: 230px;
-
-    margin: 1rem;
+    margin: 1rem ;
 }
+
+.app__wrapper_info{
+    margin-left: -2rem;
+}
+
+.app__laurels_video{
+    margin-right: -2rem;
+}
+
+
+.laurels-container{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.laurels-images{
+display: flex;
+flex-direction: row;
+gap: 4rem;
+}
+
+
 
 @media screen and (min-width: 1900px) {
     .app__laurels_awards-card {

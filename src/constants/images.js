@@ -1,5 +1,6 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
+import chef1 from '../assets/chef1.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
@@ -20,10 +21,26 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import rectangle from '../assets/rectangle.png';
+import hall from '../assets/eventhall.mp4';
+import hall1 from '../assets/hallpic1.jpg';
+import hall2 from '../assets/hallpic2.jpg';
+import photo1 from '../assets/photoG1.jpeg';
+import photo2 from '../assets/photoG2.jpeg';
+import photo3 from '../assets/photoG3.jpg';
+import photo4 from '../assets/photoG4.jpeg';
+import photo5 from '../assets/photoG5.jpg';
+import photo6 from '../assets/photoG6.jpg';
+import photo7 from '../assets/photoG7.jpg';
+import photo8 from '../assets/photoG8.jpg';
+import photo9 from '../assets/photoG9.jpg';
+import photo10 from '../assets/photoG10.jpg';
+import photo11 from '../assets/photoG11.jpg';
 
 export default {
   bg,
   chef,
+  chef1,
   G,
   gallery01,
   gallery02,
@@ -44,4 +61,19 @@ export default {
   sign,
   quote,
   gericht,
+  rectangle,
+  hall,
+  hall1,
+  hall2,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  photo6,
+  photo7,
+  photo8,
+  photo9,
+  photo10,
+  photo11,
 };

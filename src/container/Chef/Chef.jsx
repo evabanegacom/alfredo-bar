@@ -10,14 +10,14 @@ const Chef = () => (
       <img src={images.chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
+      <SubHeading title="Founder's word" />
       <h1 className="headtext__cormorant">What we believe in</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
         </div>
-        <p className="p__opensans">At [Restaurant Name], we believe in more than just creating meals; we believe in crafting experiences that tantalize the senses, ignite conversations, and linger in your memories. Our kitchen is not just a place to cook; it is a haven of inspiration, innovation, and dedication.</p>
+        <p className="p__opensans">Welcome to a realm of culinary delights, vibrant rhythms, and an ambiance that transcends the ordinary. We proudly present to you an unprecedented fusion of indulgence; a seamless blend of a sophisticated bar, an electrifying night club, and a tantalizing eatery all under one roof. Step into an immersive experience where melodies intertwine with laughter and where every moment is an invitation to celebrate life.</p>
       </div>
 
       <div className="app__chef-sign">
