@@ -45,6 +45,7 @@ import photo17 from '../assets/photoG17.jpeg';
 import photo18 from '../assets/photoG18.jpeg';
 import cancel from '../assets/cancel.png';
 import correct from '../assets/correct.png';
+import nightclub from '../assets/nightclub-img.png';
 
 export default {
   bg,
@@ -94,4 +95,5 @@ export default {
   photo18,
   cancel,
   correct,
+  nightclub,
 };

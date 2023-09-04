@@ -1,6 +1,5 @@
 import React from 'react';
-import { MenuItem } from '../../components';
-import { data, images } from '../../constants';
+import { images } from '../../constants';
 import './AboutUs.css';
 
 const AboutUs = () => (
@@ -28,11 +27,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our Fees</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <div className="app__specialMenu-menu_cocktails  flex__center">
-          <div className="app__specialMenu_menu_items">
-            {data.nightclubs.map((nightclub, index) => (
-              <MenuItem key={nightclub.title + index} title={nightclub.title} price={nightclub.price} tags={nightclub.tags} />
-            ))}
-          </div>
+
+          <img src={images.nightclub} alt="header_img" width={350} height={550} />
+
         </div>
       </div>
     </div>

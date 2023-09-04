@@ -31,7 +31,7 @@
 }
 
 .app__aboutus-content_knife {
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -55,7 +55,7 @@
     }
 
     .app__aboutus-content_about p,
-    .app__aboutus-content_history p {
+    .app__aboutus-content_history {
         margin: 4rem 0;
     }
 }

@@ -25,7 +25,7 @@ const Header = () => {
       </div>
 
       <div className="app__wrapper_img">
-        <img src={images.welcome} alt="header_img" />
+        <img src={images.photo14} alt="header_img" />
       </div>
 
       {showModal && <Modal closeModal={closeModal} />}
