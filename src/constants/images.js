@@ -36,6 +36,15 @@ import photo8 from '../assets/photoG8.jpg';
 import photo9 from '../assets/photoG9.jpg';
 import photo10 from '../assets/photoG10.jpg';
 import photo11 from '../assets/photoG11.jpg';
+import photo12 from '../assets/photoG12.jpeg';
+import photo13 from '../assets/photoG13.jpeg';
+import photo14 from '../assets/photoG14.jpeg';
+import photo15 from '../assets/photoG15.jpeg';
+import photo16 from '../assets/photoG16.jpeg';
+import photo17 from '../assets/photoG17.jpeg';
+import photo18 from '../assets/photoG18.jpeg';
+import cancel from '../assets/cancel.png';
+import correct from '../assets/correct.png';
 
 export default {
   bg,
@@ -76,4 +85,13 @@ export default {
   photo9,
   photo10,
   photo11,
+  photo12,
+  photo13,
+  photo14,
+  photo15,
+  photo16,
+  photo17,
+  photo18,
+  cancel,
+  correct,
 };

@@ -15,7 +15,6 @@ const AboutUs = () => (
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Welcome to Alfredos, where the night comes alive with pulsating beats, electrifying energy, and an atmosphere that transcends the ordinary. Established with a passion for entertainment and a commitment to redefining nightlife, Alfredos stands as an iconic destination for those seeking an unforgettable experience. At Alfredos, we believe that the night is a canvas of possibilities, where every moment is an opportunity to create memories that resonate for a lifetime. </p>
 
-        <button type="button" className="custom__button">Know More</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -34,7 +33,7 @@ const AboutUs = () => (
               <MenuItem key={nightclub.title + index} title={nightclub.title} price={nightclub.price} tags={nightclub.tags} />
             ))}
           </div>
-        </div>        <button type="button" className="custom__button">Know More</button>
+        </div>
       </div>
     </div>
   </div>

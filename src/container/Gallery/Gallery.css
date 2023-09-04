@@ -127,7 +127,20 @@
     .app__gallery {
         padding: 4rem 0 4rem 4rem;
     }
-}
+    .gallery__arrow-icon{
+        width: 80px;
+        height: 50px;
+        border: 1px solid var(--color-golden);
+    }
+    .app__gallery-images_arrows{
+    width: 100%;
+    display: flex;
+    justify-content: spa;
+    flex-direction: row;
+    align-items: center;
+    }
+    }
+
 
 @media screen and (max-width: 650px) {
     .app__gallery {

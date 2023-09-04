@@ -4,12 +4,19 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    gap: 1rem;
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: rgba(255,255,255,0.8);
+    width: fit-content;
+    height: auto;
+    background-color: #0C0C0C;
+    border: 1px solid #DCCA87;
+    color: #DCCA87;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Cormorant Upright', serif;
+;
 }
 
 .foodcontainer{
@@ -19,5 +26,10 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid black;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+.food-modal-cancel{
+    margin-left: auto;
 }

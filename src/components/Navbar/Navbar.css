@@ -87,6 +87,11 @@
 
 .app__navbar-smallscreen_links {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .app__navbar-smallscreen_links li {
