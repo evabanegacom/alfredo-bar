@@ -17,7 +17,7 @@ const Laurels = () => (
           <p className="p__opensans">+234-703-473-8937</p>
         </div>
       </div>
-      <video className="app__laurels_video" controls width="600" height="500">
+      <video className="app__laurels_video" controls width="600" height="500" loading="lazy">
         <source src={images.hall} type="video/mp4" />
         <track kind="captions" srcLang="en" label="English captions" />
         Your browser does not support the video tag.
@@ -25,8 +25,8 @@ const Laurels = () => (
     </div>
 
     <div className="laurels-images">
-      <img src={images.hall1} alt="laurels_img" width={500} height={500} />
-      <img src={images.hall2} alt="laurels_img" width={500} height={500} />
+      <img src={images.hall1} alt="laurels_img" width={500} height={500} loading="lazy" />
+      <img src={images.hall2} alt="laurels_img" width={500} height={500} loading="lazy" />
     </div>
   </div>
 );
