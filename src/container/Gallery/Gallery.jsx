@@ -26,7 +26,7 @@ const Gallery = () => {
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Take a look at our Photo Gallery displaying our <strong>Tantalizing Cuisines</strong>, <strong>Cozy Bar</strong> spacious and richly decorated <strong>Event hall</strong>. </p>
       </div>
       <div className="app__gallery-images">
-        <div className="app__gallery-images_container" ref={scrollRef}>
+        <div className="app__gallery-images_container" ref={scrollRef} loading="lazy">
           {[images.photo1, images.photo2, images.gallery03, images.photo3, images.chef1, images.findus, images.photo4, images.photo5, images.photo15, images.photo16, images.photo17, images.photo18, images.photo6, images.photo7, images.photo8, images.photo9, images.photo10, images.photo11, images.photo12, images.photo13, images.photo14].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" loading="lazy" />

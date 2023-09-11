@@ -17,7 +17,7 @@ const Laurels = () => (
           <p className="p__opensans">+234-703-473-8937</p>
         </div>
       </div>
-      <video className="app__laurels_video" controls width="600" height="500" loading="lazy">
+      <video className="app__laurels_video" controls width="600" height="500" loading="lazy" autoPlay>
         <source src={images.hall} type="video/mp4" />
         <track kind="captions" srcLang="en" label="English captions" />
         Your browser does not support the video tag.

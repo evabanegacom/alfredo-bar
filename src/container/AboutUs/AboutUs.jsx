@@ -17,7 +17,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
-        <video controls width="540" height="400" loading="lazy">
+        <video controls width="540" height="400" loading="lazy" autoPlay>
           <source src={images.knife} type="video/mp4" />
           <track kind="captions" srcLang="en" label="English captions" />
           Your browser does not support the video tag.
